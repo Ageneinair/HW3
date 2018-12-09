@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A12AF3AD21A34D6A005E5800 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12AF3AC21A34D6A005E5800 /* AppDelegate.m */; };
-		A12AF3B021A34D6A005E5800 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12AF3AF21A34D6A005E5800 /* ViewController.m */; };
-		A12AF3B221A34D6C005E5800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12AF3B121A34D6C005E5800 /* Assets.xcassets */; };
-		A12AF3B521A34D6C005E5800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12AF3B321A34D6C005E5800 /* Main.storyboard */; };
-		A12AF3B821A34D6C005E5800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12AF3B721A34D6C005E5800 /* main.m */; };
 		A12AF3C321A34D6C005E5800 /* HW3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12AF3C221A34D6C005E5800 /* HW3Tests.m */; };
 		A12AF3CE21A34D6C005E5800 /* HW3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12AF3CD21A34D6C005E5800 /* HW3UITests.m */; };
+		A12AF3DD21A34E44005E5800 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12AF3DC21A34E44005E5800 /* OpenGL.framework */; };
+		A12AF3DF21A34E50005E5800 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12AF3DE21A34E50005E5800 /* GLUT.framework */; };
+		A12AF3E521A34EEB005E5800 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A12AF3E421A34EEB005E5800 /* libGLTools.a */; };
+		A12AF3E821A34FAF005E5800 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A12AF3E621A34FAF005E5800 /* main.cpp */; };
+		A1F6D21B21A356CE00B2D77F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1F6D21A21A356CE00B2D77F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +33,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A1F6D21621A356CE00B2D77F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A12AF3A821A34D6A005E5800 /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A12AF3AB21A34D6A005E5800 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A12AF3AC21A34D6A005E5800 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A12AF3AE21A34D6A005E5800 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A12AF3AF21A34D6A005E5800 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A12AF3B121A34D6C005E5800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12AF3B421A34D6C005E5800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12AF3B621A34D6C005E5800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A12AF3B721A34D6C005E5800 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A12AF3B921A34D6C005E5800 /* HW3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HW3.entitlements; sourceTree = "<group>"; };
 		A12AF3BE21A34D6C005E5800 /* HW3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12AF3C221A34D6C005E5800 /* HW3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW3Tests.m; sourceTree = "<group>"; };
@@ -50,6 +57,13 @@
 		A12AF3C921A34D6C005E5800 /* HW3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12AF3CD21A34D6C005E5800 /* HW3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW3UITests.m; sourceTree = "<group>"; };
 		A12AF3CF21A34D6C005E5800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12AF3DC21A34E44005E5800 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		A12AF3DE21A34E50005E5800 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		A12AF3E321A34EDF005E5800 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		A12AF3E421A34EEB005E5800 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		A12AF3E621A34FAF005E5800 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1F6D21821A356CE00B2D77F /* Simulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Simulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F6D21A21A356CE00B2D77F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12AF3E521A34EEB005E5800 /* libGLTools.a in Frameworks */,
+				A12AF3DF21A34E50005E5800 /* GLUT.framework in Frameworks */,
+				A12AF3DD21A34E44005E5800 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1F6D21521A356CE00B2D77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +107,9 @@
 				A12AF3AA21A34D6A005E5800 /* HW3 */,
 				A12AF3C121A34D6C005E5800 /* HW3Tests */,
 				A12AF3CC21A34D6C005E5800 /* HW3UITests */,
+				A1F6D21921A356CE00B2D77F /* Simulator */,
 				A12AF3A921A34D6A005E5800 /* Products */,
+				A12AF3DB21A34E44005E5800 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +119,7 @@
 				A12AF3A821A34D6A005E5800 /* HW3.app */,
 				A12AF3BE21A34D6C005E5800 /* HW3Tests.xctest */,
 				A12AF3C921A34D6C005E5800 /* HW3UITests.xctest */,
+				A1F6D21821A356CE00B2D77F /* Simulator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,15 +127,13 @@
 		A12AF3AA21A34D6A005E5800 /* HW3 */ = {
 			isa = PBXGroup;
 			children = (
-				A12AF3AB21A34D6A005E5800 /* AppDelegate.h */,
-				A12AF3AC21A34D6A005E5800 /* AppDelegate.m */,
-				A12AF3AE21A34D6A005E5800 /* ViewController.h */,
-				A12AF3AF21A34D6A005E5800 /* ViewController.m */,
+				A12AF3E321A34EDF005E5800 /* include */,
 				A12AF3B121A34D6C005E5800 /* Assets.xcassets */,
 				A12AF3B321A34D6C005E5800 /* Main.storyboard */,
 				A12AF3B621A34D6C005E5800 /* Info.plist */,
-				A12AF3B721A34D6C005E5800 /* main.m */,
 				A12AF3B921A34D6C005E5800 /* HW3.entitlements */,
+				A12AF3E621A34FAF005E5800 /* main.cpp */,
+				A12AF3E421A34EEB005E5800 /* libGLTools.a */,
 			);
 			path = HW3;
 			sourceTree = "<group>";
@@ -131,6 +156,23 @@
 			path = HW3UITests;
 			sourceTree = "<group>";
 		};
+		A12AF3DB21A34E44005E5800 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12AF3DE21A34E50005E5800 /* GLUT.framework */,
+				A12AF3DC21A34E44005E5800 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1F6D21921A356CE00B2D77F /* Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				A1F6D21A21A356CE00B2D77F /* main.cpp */,
+			);
+			path = Simulator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,7 +182,6 @@
 			buildPhases = (
 				A12AF3A421A34D6A005E5800 /* Sources */,
 				A12AF3A521A34D6A005E5800 /* Frameworks */,
-				A12AF3A621A34D6A005E5800 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +228,23 @@
 			productReference = A12AF3C921A34D6C005E5800 /* HW3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A1F6D21721A356CE00B2D77F /* Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F6D21E21A356CE00B2D77F /* Build configuration list for PBXNativeTarget "Simulator" */;
+			buildPhases = (
+				A1F6D21421A356CE00B2D77F /* Sources */,
+				A1F6D21521A356CE00B2D77F /* Frameworks */,
+				A1F6D21621A356CE00B2D77F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simulator;
+			productName = Simulator;
+			productReference = A1F6D21821A356CE00B2D77F /* Simulator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +265,9 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = A12AF3A721A34D6A005E5800;
 					};
+					A1F6D21721A356CE00B2D77F = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = A12AF3A321A34D6A005E5800 /* Build configuration list for PBXProject "HW3" */;
@@ -225,20 +286,12 @@
 				A12AF3A721A34D6A005E5800 /* HW3 */,
 				A12AF3BD21A34D6C005E5800 /* HW3Tests */,
 				A12AF3C821A34D6C005E5800 /* HW3UITests */,
+				A1F6D21721A356CE00B2D77F /* Simulator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A12AF3A621A34D6A005E5800 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A12AF3B221A34D6C005E5800 /* Assets.xcassets in Resources */,
-				A12AF3B521A34D6C005E5800 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A12AF3BC21A34D6C005E5800 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,9 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12AF3B021A34D6A005E5800 /* ViewController.m in Sources */,
-				A12AF3B821A34D6C005E5800 /* main.m in Sources */,
-				A12AF3AD21A34D6A005E5800 /* AppDelegate.m in Sources */,
+				A12AF3E821A34FAF005E5800 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A12AF3CE21A34D6C005E5800 /* HW3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F6D21421A356CE00B2D77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F6D21B21A356CE00B2D77F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,16 +484,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HW3/HW3.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3HXTDFP7D2;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/HW3/include\"";
 				INFOPLIST_FILE = HW3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HW3",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = CU.HW3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -443,16 +511,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HW3/HW3.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3HXTDFP7D2;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/HW3/include\"";
 				INFOPLIST_FILE = HW3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HW3",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = CU.HW3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -530,6 +607,24 @@
 			};
 			name = Release;
 		};
+		A1F6D21C21A356CE00B2D77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HXTDFP7D2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1F6D21D21A356CE00B2D77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HXTDFP7D2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,6 +660,15 @@
 			buildConfigurations = (
 				A12AF3D921A34D6C005E5800 /* Debug */,
 				A12AF3DA21A34D6C005E5800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F6D21E21A356CE00B2D77F /* Build configuration list for PBXNativeTarget "Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F6D21C21A356CE00B2D77F /* Debug */,
+				A1F6D21D21A356CE00B2D77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
